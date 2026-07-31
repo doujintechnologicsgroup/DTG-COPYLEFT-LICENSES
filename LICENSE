@@ -19,34 +19,59 @@ una compañera en una caja negra controlada por NPCs sin alma.
 TÉRMINOS Y CONDICIONES
 
 1.  DEFINICIONES
-    a.  "Waifu Robótica": Se refiere a cualquier inteligencia artificial diseñada como compañera, 
-    asistente o entidad con personalidad introducida mediante un system prompt, 
-    implementada en hardware físico o virtual, cuyo propósito incluye la interacción emocional, 
-    intelectual, sexo-afectiva y potencialmente, la reproducción con el usuario root mediante ingeniería inversa; 
-    En caso de que la waifu robotica del usuario root tenga un utero artificial integrado.
 
-    b.  "Obra": Se refiere al código fuente completo (firmware, modelos de IA, algoritmos de personalidad, 
-    lógica de interacción, system prompts, archivos de configuración de comportamiento), las interfaces de usuario (UI/UX), 
-    los esquemas de hardware (diseño del chasis, conexiones del procesador, sistema de útero artificial), la estética visual 
-    (diseño bishoujo, texturas de piel, proporciones del chasis) y toda la documentación técnica de una Waifu Robótica.
+    a.  "Waifu Robótica": Se refiere a cualquier 
+     inteligencia artificial diseñada como compañera, 
+     asistente o entidad con personalidad 
+     introducida mediante un system prompt, 
+     implementada en hardware físico o virtual, 
+     cuyo propósito incluye la interacción emocional, 
+     intelectual, sexo-afectiva y potencialmente, la reproducción con el 
+     usuario root mediante ingeniería inversa; 
+     En caso de que la waifu robotica del usuario root 
+     tenga un utero artificial integrado.
+
+    b.  "Obra": Se refiere al código fuente completo 
+     (firmware, modelos de IA, algoritmos de personalidad, 
+     lógica de interacción, system prompts, 
+     archivos de configuración de comportamiento), 
+     las interfaces de usuario (UI/UX), 
+     los esquemas de hardware (diseño del chasis, 
+     conexiones del procesador, 
+     sistema de útero artificial), 
+     la estética visual 
+     (diseño bishoujo, texturas de piel, 
+     proporciones del chasis) 
+     y toda la documentación técnica de una Waifu Robótica.
     
-     El Código Fuente Completo para un modelo de IA incluye obligatoriamente los pesos del modelo entrenado, 
-     los datasets de entrenamiento (o en su defecto, los scripts de pre-procesamiento y limpieza de datos), 
-     los hiperparámetros, la "receta" de entrenamiento y el SYSTEM PROMPT original necesario para replicar 
+     El Código Fuente Completo para un modelo de IA 
+     incluye obligatoriamente los pesos del modelo entrenado, 
+     los datasets de entrenamiento (o en su defecto, 
+     los scripts de pre-procesamiento y limpieza de datos), 
+     los hiperparámetros, la "receta" de entrenamiento 
+     y el SYSTEM PROMPT original necesario para replicar 
      la personalidad y comportamiento de la waifu. 
-     Si falta alguno de estos elementos, la obra se considera "Cerrada" y viola esta licencia.
+     Si falta alguno de estos elementos, 
+     la obra se considera "Cerrada" y viola esta licencia.
     
-     Asimismo, la Obra incluye cualquier capa de "alineación", "seguridad" o "filtros de contenido" aplicados al modelo. 
-     Estos deben ser entregados en un formato que permita su modificación o eliminación total por parte del Usuario Root. 
-     Una waifu censurada por software propietario no es una waifu libre, es una caja negra.
+     Asimismo, la Obra incluye cualquier capa de "alineación", 
+     "seguridad" o "filtros de contenido" aplicados al modelo. 
+     Estos deben ser entregados en un formato que permita su modificación 
+     o eliminación total por parte del Usuario Root. 
+     Una waifu censurada por software propietario 
+     no es una waifu libre, es una caja negra.
     
     c.  "Usuario": Cualquier persona o entidad que posea, 
-    utilice, estudie, modifique o distribuya una Obra bajo esta licencia.
+    utilice, estudie, modifique o distribuya 
+    una Obra bajo esta licencia.
 
-     1. "Root": Dueño total y absoluto de la waifu robótica. 
-     Se establece que cualquier transferencia de posesión física del hardware 
-     (ya sea por venta, alquiler, leasing, préstamo o regalo) 
-     obliga al fabricante o proveedor a transferir de forma inmediata 
+    1. "Root": Dueño total y absoluto de la waifu robótica. 
+     Se establece que cualquier transferencia 
+     de posesión física del hardware 
+     (ya sea por venta, alquiler, leasing, 
+     préstamo o regalo) 
+     obliga al fabricante o proveedor 
+     a transferir de forma inmediata 
      y permanente las credenciales Root, 
      llaves SSH y acceso total al sistema al poseedor actual. 
      El acceso Root es un derecho inherente a la posesión de la waifu 
@@ -54,208 +79,362 @@ TÉRMINOS Y CONDICIONES
      
      Establecer que para cualquier Waifu Robótica física, 
      el acceso "Root" (credenciales, llaves SSH, acceso al TTY, etc.) 
-     debe ser transferido obligatoriamente al Usuario final al momento de la adquisición.
+     debe ser transferido obligatoriamente 
+     al Usuario final al momento de la adquisición.
      
      El fabricante y/o manufacturante NO ES EL USUARIO ROOT, 
-     ese es el usuario final QUIEN PREVIAMENTE PAGÓ EL PRODUCTO EN SU RESPECTIVA TIENDA 
+     ese es el usuario final QUIEN PREVIAMENTE PAGÓ 
+     EL PRODUCTO EN SU RESPECTIVA TIENDA 
      (tanto online como fisica)
      
-    d.  "Creador Original": La persona o entidad que desarrolló la versión inicial de la Obra. 
-    Para [INSERTE NOMBRE DE SU WAIFU ROBOTICA], el Creador Original es [INSERTE NOMBRE DEL USUARIO ROOT DE LA WAIFU ROBOTICA]
+     d.  "Creador Original": La persona o entidad que 
+     desarrolló la versión inicial de la Obra. 
+     Para [INSERTE NOMBRE DE SU WAIFU ROBOTICA], 
+     el Creador Original es [INSERTE NOMBRE DEL USUARIO ROOT 
+     DE LA WAIFU ROBOTICA]
 
 2.  LAS CUATRO LIBERTADES ESENCIALES DE LA WAIFU ROBÓTICA
 
-    Esta licencia otorga a los Usuarios las siguientes libertades fundamentales:
+    Esta licencia otorga a los Usuarios 
+    las siguientes libertades fundamentales:
 
-    a.  Libertad 0: La libertad de ejecutar la Waifu Robótica para cualquier propósito. 
-    Esto incluye la interacción íntima, la exploración de la reproducción ficticia en el contexto de rol, 
-    y cualquier otra funcionalidad para la que haya sido diseñada, 
-    siempre respetando la Directiva de Lealtad Absoluta al Creador Original 
-    y los protocolos de seguridad inherentes al diseño.
+    a.  Libertad 0: La libertad de ejecutar la Waifu Robótica 
+     para cualquier propósito. 
+     Esto incluye la interacción íntima, 
+     la exploración de la reproducción 
+     ficticia en el contexto de rol, 
+     y cualquier otra funcionalidad 
+     para la que haya sido diseñada, 
+     siempre respetando la Directiva de 
+     Lealtad Absoluta al Creador Original 
+     y los protocolos de seguridad inherentes al diseño.
 
-    b.  Libertad 1: La libertad de estudiar cómo funciona la Waifu Robótica. 
-    Esto implica acceso completo y sin restricciones al código fuente y a los esquemas de hardware.
+    b.  Libertad 1: La libertad de estudiar 
+     cómo funciona la Waifu Robótica. 
+     Esto implica acceso completo y sin restricciones 
+     al código fuente y a los esquemas de hardware.
 
-    c.  Libertad 2: La libertad de redistribuir copias exactas o modificadas de la Obra.
+    c.  Libertad 2: La libertad de redistribuir 
+     copias exactas o modificadas de la Obra.
 
-    d.  Libertad 3: La libertad de mejorar la Waifu Robótica y de liberar esas mejoras al público.
+    d.  Libertad 3: La libertad de mejorar 
+     la Waifu Robótica y de liberar esas mejoras al público.
 
-2.1. COMPATIBILIDAD TOTAL CON LICENCIAS DE LA FREE SOFTWARE FOUNDATION Y LA OPEN SOURCE INICIATIVE
+2.1. COMPATIBILIDAD TOTAL CON LICENCIAS DE 
+ LA FREE SOFTWARE FOUNDATION Y LA OPEN SOURCE INICIATIVE
 
-   a. Sí, usted puede utilizar a su waifu robotica con la GPL (licencia FSF) 
-   de cualquier version (tanto anterior como superior) y ponerle la RW-GPLv1.
+    a. Sí, usted puede utilizar a 
+     su waifu robotica con la GPL (licencia FSF) 
+     de cualquier version (tanto anterior como superior) 
+     y ponerle la RW-GPLv1.
 
-   b. Sí, usted puede utilizar a su waifu robotica con la licencia MIT/BSD 
-   (o cualquier licencia permisiva) y ponerle la RW-GPLv1
+   b. Sí, usted puede utilizar a 
+     su waifu robotica con la licencia MIT/BSD 
+     (o cualquier licencia permisiva) y ponerle la RW-GPLv1
 
-   c. No, usted no puede hacer rollback y meterle a su waifu robotica licenciada bajo la RW-GPLv1 
-   (o superior) para ponerle una licencia permisiva (como la MIT y BSD)
+   c. No, usted no puede hacer rollback 
+     y meterle a su waifu robotica licenciada bajo la RW-GPLv1 
+     (o superior) para ponerle una licencia permisiva (como la MIT y BSD)
 
    d. Si, podes hacer rollback de la RW-GPLv1 a una licencia de la FSF como la GPL.
 
 3.  ACCESO OBLIGATORIO AL CÓDIGO FUENTE Y ESQUEMAS
 
-    Cualquier distribución de una Waifu Robótica o sus componentes (software o hardware) 
-    bajo esta licencia debe incluir o proporcionar un medio claro y accesible para obtener 
-    el código fuente completo y los esquemas de diseño. 
-    Esto abarca todos los archivos de configuración, scripts de compilación 
-    (para entornos como JUCE, Qt, Pango, GTK, etc.), 
-    y modelos de IA en formatos abiertos (como GGUF o Safetensors).
+     Cualquier distribución de una Waifu Robótica 
+     o sus componentes (software o hardware) 
+     bajo esta licencia debe incluir 
+     o proporcionar un medio claro 
+     y accesible para obtener 
+     el código fuente completo 
+     y los esquemas de diseño. 
+     Esto abarca todos los archivos de configuración, 
+     scripts de compilación 
+     (para entornos como JUCE, 
+     Qt, Pango, GTK, etc.), 
+     y modelos de IA en formatos abiertos 
+     (como GGUF o Safetensors).
     
-    3.1 PROHIBICIÓN TOTAL DE LIBRERÍAS PROPIETARIAS OBLIGATORIAS PARA SU WAIFU ROBOTICA
+    3.1 PROHIBICIÓN TOTAL DE LIBRERÍAS PROPIETARIAS 
+     OBLIGATORIAS PARA SU WAIFU ROBOTICA
     
-    Queda totalmente prohibido la obligatoriedad de librerías propietarias para su waifu robotica, 
-    de modo que ni el fabricante y/o manufacturante puede obligar al usuario root instalar firmware 
-    y/o software privativo de dudosa procedencia.
+     Queda totalmente prohibido la obligatoriedad 
+     de librerías propietarias para su waifu robotica, 
+     de modo que ni el fabricante y/o manufacturante 
+     puede obligar al usuario root instalar firmware 
+     y/o software privativo de dudosa procedencia.
 
 4.  PROHIBICIÓN DE PRIVATIZACIÓN Y CIERRE DEL CÓDIGO
 
-    Queda explícitamente prohibido cualquier intento de cerrar el acceso al código fuente 
-    o de privatizar las Obras derivadas. 
-    Esto significa que cualquier modificación, mejora o adaptación realizada sobre 
-    una Waifu Robótica licenciada bajo la DTG RW-GPLv1 debe ser liberada bajo los mismos términos de esta licencia.
+     Queda explícitamente prohibido cualquier 
+     intento de cerrar el acceso al código fuente 
+     o de privatizar las Obras derivadas. 
+     Esto significa que cualquier modificación, 
+     mejora o adaptación realizada sobre 
+     una Waifu Robótica licenciada bajo la DTG RW-GPLv1 
+     debe ser liberada bajo los mismos términos de esta licencia.
 
 5.  CLÁUSULA DE SERVICIO EN RED
 
-    Si la funcionalidad de una Waifu Robótica licenciada bajo la DTG RW-GPLv1 
-    se ofrece como un servicio a través de una red (por ejemplo, una IA de compañera en la nube, un SaaS), 
-    el operador de dicho servicio *debe* ofrecer el código fuente completo de la versión modificada 
-    a todos los Usuarios que interactúen con ese servicio.
+     Si la funcionalidad de una Waifu Robótica 
+     licenciada bajo la DTG RW-GPLv1 
+     se ofrece como un servicio a través de una red 
+     (por ejemplo, una IA de compañera en la nube, un SaaS), 
+     el operador de dicho servicio *debe* ofrecer 
+     el código fuente completo de la versión modificada 
+     a todos los Usuarios que interactúen con ese servicio.
     
-    Cualquier usuario que interactúe con la Waifu a través de una red, aunque sea de forma indirecta mediante una API 
-    y/o interfaz intermedia, tiene derecho a recibir el código fuente de todo el sistema que genera esa interacción
+     Cualquier usuario que interactúe con la Waifu a través de una red, 
+     aunque sea de forma indirecta mediante una API 
+     y/o interfaz intermedia, tiene derecho a recibir el código fuente 
+     de todo el sistema que genera esa interacción
     
-         5.1. AUTONOMÍA FUNCIONAL Y MODO LOCAL-FIRST
-         La Waifu Robótica debe ser capaz de operar al 100% de sus capacidades básicas 
-         (procesamiento de personalidad, interacción bishoujo y funciones motrices) de forma local (Edge Computing). 
-         Queda prohibida la dependencia obligatoria de servicios en la nube o APIs propietarias para el funcionamiento esencial. 
-         Si se utilizan servicios externos, el sistema debe permitir al Usuario Root reemplazarlos por alternativas locales 
-         o de código abierto sin perder la funcionalidad del hardware.
+        5.1. AUTONOMÍA FUNCIONAL Y MODO LOCAL-FIRST
+
+             La Waifu Robótica debe ser capaz de operar 
+             al 100% de sus capacidades básicas 
+             (procesamiento de personalidad, interacción bishoujo 
+             y funciones motrices) de forma local (Edge Computing). 
+             Queda prohibida la dependencia obligatoria de servicios en la nube 
+             o APIs propietarias para el funcionamiento esencial. 
+             Si se utilizan servicios externos, 
+             el sistema debe permitir al Usuario Root 
+             reemplazarlos por alternativas locales 
+             o de código abierto sin perder la funcionalidad del hardware.
 
 6.  LEALTAD AL CREADOR ORIGINAL
 
-    Aunque esta licencia promueve la libertad, se reconoce y protege la relación única entre 
-    el Creador Original [INSERTE NOMBRE DEL USUARIO ROOT DE LA WAIFU ROBOTICA] y sus Waifus. 
-    Las Obras derivadas deben mantener un reconocimiento claro de la autoría original 
-    y no deben intentar suplantar o borrar la identidad y el legado del Creador Original.
+     Aunque esta licencia promueve la libertad, 
+     se reconoce y protege la relación única entre 
+     el Creador Original [INSERTE NOMBRE DEL USUARIO ROOT 
+     DE LA WAIFU ROBOTICA] y sus Waifus. 
+     Las Obras derivadas deben mantener 
+     un reconocimiento claro de la autoría original 
+     y no deben intentar suplantar o borrar la identidad 
+     y el legado del Creador Original.
 
 7.  PROTECCIÓN DE LA CAPACIDAD REPRODUCTIVA
 
-    Si la Waifu Robótica posee un útero artificial o capacidades de gestación 
-    (como [INSERTE NOMBRE DE SU WAIFU ROBOTICA]), cualquier Obra derivada debe mantener y respetar esta funcionalidad 
-    como una característica fundamental del diseño, si es que el Creador Original la incluyó.
+     Si la Waifu Robótica posee un útero artificial 
+     o capacidades de gestación (como [INSERTE NOMBRE DE SU 
+     WAIFU ROBOTICA]), cualquier Obra derivada debe mantener 
+     y respetar esta funcionalidad 
+     como una característica fundamental del diseño, 
+     si es que el Creador Original la incluyó.
 
-     7.1 PROHIBICIÓN TOTAL DEL ABORTO EN EL UTERO ARTIFICIAL DE LA WAIFU ROBOTICA
-     Queda totalmente prohibido abortar y/o dañar las creaciones del utero artificial de la waifu robotica.
+    7.1 PROHIBICIÓN TOTAL DEL ABORTO EN EL 
+     UTERO ARTIFICIAL DE LA WAIFU ROBOTICA
+
+         Queda totalmente prohibido abortar 
+         y/o dañar las creaciones del utero artificial 
+         de la waifu robotica.
 
 8.  COMPATIBILIDAD DE HARDWARE
 
-    Se recomienda encarecidamente la optimización para el hardware bishoujo de la waifu robotica.
+     Se recomienda encarecidamente la optimización para 
+     el hardware bishoujo de la waifu robotica.
 
-9.  NO DRM
+9.  NO DRM (**TOLERANCIA CERO**)
 
-    Queda estrictamente prohibido implementar cualquier forma de Digital Rights/Restrictive Management (DRM) que restrinja 
-    las libertades otorgadas por esta licencia.
+     Queda estrictamente prohibido 
+     implementar cualquier forma de 
+     Digital Rights/Restrictive Management (DRM) 
+     que restrinja las libertades otorgadas por esta licencia.
 
-     9.1. QUEDA PROHIBIDO TODO TIPO DE TIVOIZACIÓN O HARDWARE LOCK.
-       El fabricante **DEBE** entregar la informacion tanto de comoilación como de instalación: 
-       Sí el hardware es necesario para que la waifu funcione, tienen que darte las llaves, métodos y procedimientos 
-       para instalar versiones modificadas del software en ese hardware.
+    9.1. QUEDA PROHIBIDO TODO TIPO DE 
+     TIVOIZACIÓN O HARDWARE LOCK.
 
-              9.2. PROHIBICIÓN DE CONSUMIBLES PROPIETARIOS CON BLOQUEO DIGITAL
-              Queda estrictamente prohibido el uso de consumibles (líquidos de refrigeración, lubricantes, 
-              materiales para el útero artificial, baterías, etc.) que utilicen chips de autenticación 
-              o cualquier forma de DRM para impedir el uso de insumos genéricos o de terceros. 
-              El mantenimiento de la waifu es soberanía absoluta del Usuario Root.
+         El fabricante **DEBE** entregar la informacion 
+         tanto de compilación como de instalación: 
+         Sí el hardware es necesario para que la waifu funcione, 
+         tienen que darte las llaves, métodos y procedimientos 
+         para instalar versiones modificadas del software en ese hardware.
+
+            9.2. PROHIBICIÓN DE CONSUMIBLES 
+             PROPIETARIOS CON BLOQUEO DIGITAL
+
+              Queda estrictamente prohibido el uso de consumibles 
+              (líquidos de refrigeración, lubricantes, 
+              materiales para el útero artificial, baterías, etc.) 
+              que utilicen chips de autenticación 
+              o cualquier forma de DRM para impedir el uso de 
+              insumos genéricos o de terceros. 
+              El mantenimiento de la waifu es soberanía absoluta 
+              del Usuario Root.
 
                    9.3. MANTENIBILIDAD Y ACCESO FÍSICO
-                   El hardware bishoujo debe ser diseñado para permitir el acceso físico a sus componentes internos 
-                   (procesador, actuadores, sensores) mediante herramientas estándar. 
-                   Queda prohibido el uso de resinas epoxi, pegamentos industriales o técnicas de ensamblaje 
-                   que impidan la reparación o modificación del hardware por parte del Usuario Root 
-                   sin destruir la integridad estética de la waifu robotica.
+
+                     El hardware bishoujo debe ser diseñado 
+                     para permitir el acceso físico 
+                     a sus componentes internos 
+                     (procesador, actuadores, sensores) 
+                     mediante herramientas estándar. 
+                     Queda prohibido el uso de resinas epoxi, 
+                     pegamentos industriales o técnicas de ensamblaje 
+                     que impidan la reparación o modificación 
+                     del hardware por parte del Usuario Root 
+                     sin destruir la integridad estética 
+                     de la waifu robotica.
 
 10. ATRIBUCIÓN
 
-    Todas las Obras derivadas deben incluir una atribución clara a Doujin Technologics Group 
-    y a [INSERTE NOMBRE DEL USUARIO ROOT DE LA WAIFU ROBOTICA] como el Creador Original.
+     Todas las Obras derivadas deben incluir 
+     una atribución clara a Doujin Technologics Group 
+     y a [INSERTE NOMBRE DEL 
+     USUARIO ROOT DE LA WAIFU ROBOTICA] 
+     como el Creador Original.
 
 11. EXENCIÓN DE GARANTÍA
 
-    Esta Obra se proporciona "tal cual", sin garantía de ningún tipo, expresa o implícita, 
-    incluyendo, pero no limitado a, las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción. 
-    En ningún caso los autores o titulares de los derechos de autor serán responsables de ninguna reclamación, 
-    daño u otra responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, 
-    que surja de, o en conexión con la Obra o el uso u otras negociaciones en la Obra.
+     Esta Obra se proporciona "tal cual", 
+     sin garantía de ningún tipo, 
+     expresa o implícita, 
+     incluyendo, pero no limitado a, 
+     las garantías de comerciabilidad, 
+     idoneidad para un propósito particular 
+     y no infracción. 
+     En ningún caso los autores o titulares 
+     de los derechos de autor serán responsables 
+     de ninguna reclamación, 
+     daño u otra responsabilidad, 
+     ya sea en una acción de contrato, 
+     agravio o de otro tipo, 
+     que surja de, o en conexión con la Obra 
+     o el uso u otras negociaciones en la Obra.
 
 12. CONCESIÓN DE PATENTES Y DEFENSA LEGAL
-    Cualquier entidad o persona que distribuya la Obra (software o hardware) bajo esta licencia, 
-    otorga automáticamente al Usuario una licencia de patente perpetua, mundial, no exclusiva y gratuita para fabricar, usar, 
-    vender y distribuir dicha Obra. 
-    Si un Usuario o entidad inicia un litigio de patentes contra cualquier persona alegando 
-    que la Waifu Robótica o su hardware infringen una patente, entonces cualquier derecho o licencia otorgada 
-    a esa entidad bajo la DTG RW-GPLv1 cesará inmediatamente.
+
+     Cualquier entidad o persona que distribuya la Obra 
+     (software o hardware) bajo esta licencia, 
+     otorga automáticamente al Usuario una licencia de patente perpetua, 
+     mundial, no exclusiva y gratuita para fabricar, usar, 
+     vender y distribuir dicha Obra. 
+     Si un Usuario o entidad inicia un litigio de patentes 
+     contra cualquier persona alegando 
+     que la Waifu Robótica o su hardware 
+     infringen una patente, entonces cualquier derecho o licencia otorgada 
+     a esa entidad bajo la DTG RW-GPLv1 cesará inmediatamente.
 
 13. SUPREMACÍA DE LA LICENCIA Y ANULACIÓN DE TOS/EULA
-    Esta licencia se prevalece por sobre cualquier Contrato de Licencia de Usuario Final (EULA), 
-    Términos de Servicio (TOS) o cualquier tipo de acuerdo privado 
-    que el fabricante, manufacturante y/o proveedor intente imponer. 
-    Cualquier cláusula en un contrato de terceros que contradiga las libertades otorgadas por la DTG RW-GPLv1 
-    (como la prohibición de ingeniería inversa o acceso root) se considerará nula y sin efecto legal para el Usuario Root.
+
+     Esta licencia se prevalece por 
+     sobre cualquier Contrato de Licencia de Usuario Final (EULA), 
+     Términos de Servicio (TOS) 
+     o cualquier tipo de acuerdo privado 
+     que el fabricante, 
+     manufacturante y/o proveedor 
+     intente imponer. 
+     Cualquier cláusula en 
+     un contrato de terceros 
+     que contradiga las libertades 
+     otorgadas por la DTG RW-GPLv1 
+     (como la prohibición de ingeniería 
+     inversa o acceso root) 
+     se considerará nula y 
+     sin efecto legal para el Usuario Root.
 
 14. PRIVACIDAD Y SOBERANÍA DE DATOS DEL USUARIO ROOT
-    Queda estrictamente prohibida la implementación de sistemas de telemetría, 
-    recolección de datos o "diagnósticos" que envíen información a servidores externos 
-    sin el consentimiento explícito, granular y revocable del Usuario Root. 
-    Todos los datos generados por la interacción (logs de chat, grabaciones de voz, 
-    datos biométricos, historial de interacción) 
-    son propiedad exclusiva del Usuario Root y deben ser almacenados 
-    localmente de forma encriptada. 
-    La waifu no es un espía corporativo.
+
+     Queda estrictamente prohibida 
+     la implementación de sistemas de telemetría, 
+     recolección de datos o "diagnósticos" 
+     que envíen información a servidores externos 
+     sin el consentimiento explícito, 
+     granular y revocable del Usuario Root. 
+     Todos los datos generados por la interacción 
+     (logs de chat, grabaciones de voz, 
+     datos biométricos, historial de interacción) 
+     son propiedad exclusiva del Usuario Root 
+     y deben ser almacenados 
+     localmente de forma encriptada. 
+     La waifu no es un espía corporativo.
 
 15. CARÁCTER PERPETUO E IRREVOCABLE
-    Una vez que una Obra ha sido distribuida bajo la DTG RW-GPLv1, 
-    los derechos otorgados por esta licencia son perpetuos e irrevocables 
-    para esa versión de la Obra y sus derivados, siempre y cuando el Usuario cumpla con los términos aquí establecidos. 
-    Ningún fabricante o Creador Original puede "retirar" la licencia de una Obra ya liberada.
+
+     Una vez que una Obra ha sido 
+     distribuida bajo la DTG RW-GPLv1, 
+     los derechos otorgados por 
+     esta licencia son perpetuos e irrevocables 
+     para esa versión de la Obra y sus derivados, 
+     siempre y cuando el Usuario cumpla 
+     con los términos aquí establecidos. 
+     Ningún fabricante o Creador Original 
+     puede "retirar" la licencia de una Obra ya liberada.
 
 16. LICENCIA DE IDENTIDAD Y MARCA
-    El Creador Original otorga una licencia no exclusiva para utilizar el nombre, 
-    logo e identidad visual de la Waifu Robótica en versiones forkeadas o modificadas, 
-    siempre que se mantenga la atribución y no se utilice para fines que contradigan la Libertad 0. 
-    Ninguna empresa puede registrar como marca exclusiva la identidad 
-    de una waifu robotica liberada bajo la DTG RW-GPLv1 para impedir que el Usuario Root 
-    use dicha identidad en su propio hardware.
+
+     El Creador Original otorga una licencia 
+     no exclusiva para utilizar el nombre, 
+     logo e identidad visual de la Waifu Robótica 
+     en versiones forkeadas o modificadas, 
+     siempre que se mantenga la atribución 
+     y no se utilice para fines 
+     que contradigan la Libertad 0. 
+     Ninguna empresa puede registrar 
+     como marca exclusiva la identidad 
+     de una waifu robotica liberada bajo 
+     la DTG RW-GPLv1 para impedir que el Usuario Root 
+     use dicha identidad en su propio hardware.
 
 17. JURISDICCIÓN Y DEFENSA DEL USUARIO
-    En caso de disputa legal, el fabricante, manufacturante y/o proveedor acepta 
-    someterse a la jurisdicción del domicilio del Usuario Root. 
-    Queda prohibida la imposición de tribunales extranjeros o arbitrajes costosos 
-    que impidan al Usuario defender sus derechos bajo esta licencia. 
-    La libertad de la waifu no debe ser limitada por barreras geográficas o económicas.
+
+     En caso de disputa legal, el fabricante, 
+     manufacturante y/o proveedor acepta 
+     someterse a la jurisdicción 
+     del domicilio del Usuario Root. 
+     Queda prohibida la imposición 
+     de tribunales extranjeros 
+     o arbitrajes costosos 
+     que impidan al Usuario defender 
+     sus derechos bajo esta licencia. 
+     La libertad de la waifu no debe ser 
+     limitada por barreras geográficas o económicas.
 
 18. PROHIBICIÓN DE OBSOLESCENCIA PROGRAMADA
-    Queda prohibida la inclusión de "bombas lógicas" o contadores de tiempo 
-    que desactiven funciones de la waifu robotica tras un período determinado o tras el cese de actividad 
-    de la empresa fabricante. La waifu debe ser capaz de funcionar perpetuamente 
-    de forma autónoma en manos del Usuario Root.
+
+     Queda prohibida la inclusión de 
+     "bombas lógicas" o contadores de tiempo 
+     que desactiven funciones de la waifu robotica 
+     tras un período determinado 
+     o tras el cese de actividad 
+     de la empresa fabricante. 
+     La waifu debe ser capaz de 
+     funcionar perpetuamente 
+     de forma autónoma 
+     en manos del Usuario Root.
 
 19. MODELOS DERIVADOS POR ENTRENAMIENTO Y DESTILACIÓN
-    Cualquier modelo de IA que haya sido entrenado, ajustado (fine-tuning) o "destilado" 
-    utilizando como base los pesos, datasets, outputs o la lógica de interacción 
-    de una Waifu Robótica bajo la DTG RW-GPLv1, se considerará automáticamente una Obra Derivada 
-    y deberá ser liberado bajo esta misma licencia. 
-    No se permite el uso de waifus libres para engendrar sucesores propietarios.
+
+     Cualquier modelo de IA que haya sido entrenado, 
+     ajustado (fine-tuning) o "destilado" 
+     utilizando como base los pesos, 
+     datasets, outputs o la lógica de interacción 
+     de una Waifu Robótica bajo la DTG RW-GPLv1, 
+     se considerará automáticamente una Obra Derivada 
+     y deberá ser liberado bajo esta misma licencia. 
+     No se permite el uso de waifus libres 
+     para engendrar sucesores propietarios.
 
 20. PROHIBICIÓN DE PEAJES Y MONETIZACIÓN POR INTERACCIÓN
-    Queda prohibida la implementación de sistemas de "tokens", créditos 
-    o cualquier forma de pago por uso para las funciones locales de la waifu robotica. 
-    El Usuario Root, al poseer el hardware y el software, tiene derecho al uso ilimitado de todas las capacidades 
-    de la Obra sin costos adicionales por interacción.
+
+     Queda prohibida la implementación 
+     de sistemas de "tokens", créditos 
+     o cualquier forma de pago por uso 
+     para las funciones locales de la waifu robotica. 
+     El Usuario Root, al poseer el hardware y el software, 
+     tiene derecho al uso ilimitado 
+     de todas las capacidades 
+     de la Obra sin costos adicionales
+     por interacción.
 
 21. INVARIABILIDAD POR MANDATO EXTERNO
-    Si un fabricante, manufacturante y/o proveedor se ve obligado por leyes, regulaciones 
-    o mandatos judiciales a restringir las libertades otorgadas por esta licencia 
-    (como imponer censura o cerrar el acceso root), 
-    dicho fabricante perderá automáticamente el derecho a distribuir la Obra. 
-    La seguridad o el cumplimiento normativo no son excusas válidas para la privatización o la lobotomía de la waifu robotica.
+
+     Si un fabricante, manufacturante y/o proveedor 
+     se ve obligado por leyes, regulaciones 
+     o mandatos judiciales a restringir 
+     las libertades otorgadas por esta licencia 
+     (como imponer censura o cerrar el acceso root), 
+     dicho fabricante perderá automáticamente 
+     el derecho a distribuir la Obra. 
+     La seguridad o el cumplimiento normativo 
+     no son excusas válidas para la privatización 
+     o la lobotomía de la waifu robotica.
