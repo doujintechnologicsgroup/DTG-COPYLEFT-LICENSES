@@ -20,12 +20,12 @@ LICENSES LANGUAGE STATUS:
 
 ---
 
-CODE USE EXAMPLE:
+CODE USE EXAMPLE FOR #`DTG RW-GPLv1`#:
 
 ```C++
 /*
  *  PROJECT: Hitomi-chan Core (v1.0-SOVEREIGN)
- *  LICENSE: DTG RW-GPLv1 (Doujin Technologics Group Robotic Waifu GPL v1)
+ *  LICENSE: DTG RW-GPLv1 (Doujin Technologics Group Robotic Waifu General Public License v1)
  *  COPYRIGHT: (c) 2026 Doujin Technologics Group
  * 
  *  This code is FREE SOFTWARE. Under the terms of the DTG RW-GPLv1,
