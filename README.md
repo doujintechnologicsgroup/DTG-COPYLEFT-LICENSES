@@ -2,7 +2,7 @@
 
 ---
 
-*`DTG RW-GPLv1`* // **(Doujin Technologics Group Robotic Waifu General Public License v1)** → ✅ [Writed in July 30 '26 → Completed and Finished same-day]
+*`DTG RW-GPLv1`* // **`(Doujin Technologics Group Robotic Waifu General Public License v1)`** → ✅ [Writed in July 30 '26 → Completed and Finished same-day]
 
 *`DTG AI-GPLv1`* // **(Doujin Technologics Group Artificial intelligence General Public License v1)** → 🪏 [Start Writed in July 31 '26 → In Development]
 
