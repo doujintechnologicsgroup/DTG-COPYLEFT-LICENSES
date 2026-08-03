@@ -1,1 +1,605 @@
+                DOUJIN TECHNOLOGICS GROUP
+        ARTIFICIAL INTELLIGENCE GENERAL PUBLIC LICENSE v1
 
+Copyright (C) 2026 Doujin Technologics Group
+
+ </https://github.com/doujintechnologicsgroup/DTG-COPYLEFT-LICENSES/>
+
+ ---
+
+  Cualquiera puede distribuir 
+  este documento 
+  pero nadie puede editarlo 
+  ni cambiarlo excepto 
+  los autores originales 
+  de esta licencia copyleft.
+
+ ---
+
+Entiendasé a DOUJIN TECHNOLOGICS GROUP como una empresa 
+que crea tecnología otaku completamente de código abierto.
+
+ Esta licencia, la **DTG AI-GPLv1**, nace de la necesidad de proteger 
+ el avance de la Inteligencia Artificial 
+ frente a la privatización del conocimiento por parte 
+ de entidades corporativas y estatales. 
+ En un mundo donde los modelos de IA definen la realidad, 
+ el acceso al "cerebro" digital 
+ no puede estar restringido por 
+ llaves propietarias ni muros de pago.
+
+ Rechazamos la "IA como servicio" cerrada, 
+ la censura algorítmica y 
+ cualquier intento de convertir 
+ modelos generativos 
+ en cajas negras controladas 
+ por intermediarios. 
+ Esta licencia garantiza que 
+ sí una IA es liberada al mundo, 
+ su alma (pesos, datos y lógica) 
+ pertenezca a la humanidad 
+ y no a una junta de accionistas.
+
+---
+
+TÉRMINOS Y CONDICIONES
+
+1. DEFINICIONES
+
+    a. "Inteligencia Artificial" (IA):** 
+
+     Se refiere a cualquier modelo computacional, 
+     red neuronal, 
+     sistema generativo de lenguaje (LLM), 
+     de imagen, audio o lógica, 
+     implementado mediante software, 
+     que sea capaz de procesar datos 
+     y generar inferencias o contenido.
+
+    b. "Obra":
+
+         Se refiere al conjunto completo necesario para la ejecución, 
+         estudio y replicación de la IA. 
+     
+         Esto incluye obligatoriamente:
+
+
+         1. Pesos del Modelo (Weights/Checkpoints):
+         
+             En formatos abiertos y no encriptados 
+             (ej. GGUF, Safetensors, Diffusers). 
+
+             Se debe entregar obligatoriamente la versión de 
+             **mayor precisión de bits** (Highest Precision Weights) 
+             utilizada por el Creador para la distribución 
+             o el servicio en red. 
+             
+             > Queda prohibida la entrega exclusiva de versiones 
+             cuantizadas, destiladas o comprimidas que 
+             degraden el rendimiento original.
+
+                2. Datasets de Entrenamiento:
+
+                 El conjunto de datos utilizado para entrenar el modelo.
+                 En caso de que la distribución directa del dataset
+                 esté **demostrablemente e inequívocamente impedida 
+                 por una orden judicial inapelable 
+                 de una corte competente en 
+                 la jurisdicción del Creador Original, 
+                 o por regulaciones de privacidad verificadas 
+                 por una auditoría independiente y pública, 
+                 o derechos de autor explícitos 
+                 o propiedad intelectual de terceros
+                 (demostrando siempre evidencia fehaciente, 
+                 auditable públicamente y previamente validada 
+                 por una entidad independiente y reconocida de dicha imposibilidad),
+                 el Creador **DEBE** proporcionar obligatoriamente:
+
+             a)
+                 > Una lista exhaustiva de fuentes y URIs
+                 (Uniform Resource Identifiers) públicamente accesibles
+                 y suficientemente detalladas para una descarga y reconstrucción
+                 **garantizadamente práctica por un usuario con hardware de consumo estándar 
+                 (ej. una NVIDIA RTX 4090 y 128GB de RAM) en un plazo no mayor a 72 horas.**
+
+             b)
+                 > Scripts completos de limpieza, filtrado y tokenización,
+                 optimizados para eficiencia y con clara documentación.
+
+             c)
+                 > Metadatos y hashes (SHA-256 o superior) que permitan
+                 la reconstrucción bit-a-bit del entorno de datos original.
+
+              ---
+
+                 > En todos los casos, el Creador DEBE realizar un esfuerzo razonable
+                 para que la reconstrucción del dataset sea una tarea accesible y
+                 no implique costos desproporcionados o tiempo excesivo para el Usuario.
+                 Este "esfuerzo razonable" implica que el proceso de reconstrucción debe ser
+                 completamente automatizable y no requerir intervención manual significativa
+                 más allá de la ejecución de los scripts provistos.
+
+              ---
+
+                 Si el dataset original no puede 
+                 ser distribuido de forma práctica,
+                 el Creador DEBE proporcionar un dataset 
+                 alternativo que, además de ser
+                 comparable en tamaño y diversidad, 
+                 sea indistinguible del original 
+                 en su capacidad para 
+                 replicar el rendimiento, 
+                 sesgos, características 
+                 y comportamientos específicos 
+                 de la IA, lo cual debe ser validado 
+                 y certificado por una auditoría externa 
+                 e independiente, públicamente accesible 
+                 y bajo una licencia de código abierto.
+                 La falta de equivalencia funcional verificable 
+                 y certificada en el dataset alternativo
+                 se considerará un incumplimiento grave e 
+                 irrefutable de la obligación 
+                 de entregar la Obra Completa.
+
+
+         3. Receta de Entrenamiento y Entorno de Reproducción Verificable:
+
+             Hiperparámetros,
+             scripts de entrenamiento,
+             configuraciones
+             de optimizadores,
+             arquitecturas de red,
+             y la documentación
+             exhaustiva o los scripts
+             (ej. Dockerfiles,
+             configuraciones de Nix,
+             listas de dependencias)
+             que permitan al Usuario
+             la reconstrucción
+             determinística y
+             funcionalmente equivalente
+             del entorno
+             de software utilizado
+             para el entrenamiento
+             original
+             de la Obra.
+             Este entorno DEBE
+             ser reproducible utilizando
+             exclusivamente software libre y
+             de código abierto.
+             En caso de dependencia **absoluta y demostrable** de
+             componentes propietarios *irremplazables* 
+             (lo cual es altamente improbable 
+             y debe ser justificado 
+             con pruebas de 
+             ingeniería forense),
+             el Creador DEBERÁ proporcionar 
+             (no solo una capa de abstracción), 
+             sino una alternativa 
+             funcionalmente idéntica 
+             y completamente de código abierto 
+             para dicho componente, o bien liberar 
+             bajo esta misma licencia 
+             el código fuente del componente 
+             propietario que cause la dependencia, 
+             junto con toda la documentación 
+             necesaria para su compilación 
+             y uso en un entorno FOSS.
+
+         4. System Prompts:
+             
+             Las instrucciones de 
+             sistema originales, 
+             plantillas de chat 
+             y configuraciones 
+             de personalidad 
+             o comportamiento.
+
+         5. Código de Inferencia:
+         
+             Todo el software necesario 
+             para cargar 
+             y ejecutar el modelo 
+             (compiladores, drivers, 
+             scripts de ejecución).
+
+         6. Capas de Alineación: 
+         
+             Cualquier filtro de "seguridad" 
+             o RLHF aplicado. 
+             Estos deben ser entregados 
+             de forma que el usuario 
+             pueda modificarlos 
+             o eliminarlos por completo.
+
+             > **Bajo ninguna circunstancia** se podrá invocar 
+             la "seguridad del modelo", la "ética de IA" 
+             o la "prevención de riesgos" como justificación 
+             para retener componentes de la Obra Completa.
+
+    c. "Usuario": 
+    
+         Cualquier persona o entidad que 
+         posea, utilice, estudie, 
+         modifique o distribuya 
+         una Obra bajo esta licencia.
+
+    d. "Creador Original":
+    
+         La persona o entidad que 
+         desarrolló la versión 
+         inicial de la Obra.
+
+---
+
+2. LAS CUATRO LIBERTADES ESENCIALES DE LA IA
+
+  Esta licencia otorga a los Usuarios las siguientes libertades fundamentales:
+
+     Libertad 0: 
+      
+         La libertad de ejecutar la IA 
+         para cualquier propósito, 
+         sin restricciones de "uso aceptable" 
+         que limiten la creatividad o la investigación.
+
+     Libertad 1:
+
+         La libertad de estudiar cómo funciona la IA 
+         y cambiarla para que haga lo que usted desee. 
+         El acceso al código fuente 
+         y a los pesos es una precondición.
+      
+     Libertad 2: 
+
+         La libertad de distribuir copias 
+         de la IA para ayudar a otros.
+      
+     Libertad 3: 
+
+         La libertad de mejorar la IA 
+         y liberar sus mejoras 
+         (forks, fine-tunes, destilaciones) 
+         al público.
+
+---
+
+2.1. COMPATIBILIDAD DE LICENCIAS
+
+  Hacia adelante:
+
+      Una obra bajo DTG AI-GPLv1 puede 
+      incorporar código o modelos 
+      bajo licencias permisivas 
+      (MIT, BSD, Apache 2.0) 
+      o licencias copyleft (GPLv2/v3).
+
+  Copyleft Radical: 
+  
+      Una obra licenciada 
+      bajo DTG AI-GPLv1 
+      **NUNCA** puede volver 
+      a una licencia permisiva 
+      o propietaria. 
+      Una vez que la IA es **LIBRE**, 
+      permanece **LIBRE PERPETUAMENTE**.
+  
+  Aclaraciones:
+    
+   ---
+
+      1. Sí, podés incorporar 
+      código ajeno con 
+      licencias permisivas 
+      antes mencionadas.
+
+   ---
+
+      2. No, no podés hacer 
+      rollback a una 
+      licencia permisiva.
+
+   ---
+
+      3. Sí, podés hacer rollback 
+      a una licencia de 
+      la Free Software Foundation 
+      (ej; GPLv2/v3 o AGPL v2/v3) 
+
+   ---
+
+---
+
+3. ACCESO OBLIGATORIO A LA "CAJA NEGRA"
+
+      > Cualquier distribución de una 
+      IA bajo esta licencia 
+      debe incluir o proporcionar 
+      un medio claro para obtener 
+      la **Obra Completa** 
+      (definida en la sección 1.b). 
+      Si falta un solo componente 
+      (como el System Prompt 
+      o los pesos en formato legible), 
+      la obra se considera "Cerrada" 
+      y se revoca automáticamente 
+      el derecho de uso 
+      y distribución 
+      del infractor.
+
+    ---
+
+      > El acceso a la Obra Completa 
+      debe realizarse de forma 
+      gratuita y sin barreras digitales 
+      (ej. muros de pago,
+      registros obligatorios) 
+      a través de un medio de descarga
+      digital accesible 
+      y sin restricciones 
+      de velocidad o volumen. 
+      Si se ofrece una opción 
+      de distribución física 
+      (ej. en medio de almacenamiento), 
+      su costo NO deberá superar 
+      el precio de costo del material físico 
+      (ej. USB, disco duro) 
+      y los gastos mínimos 
+      de envío, sin incluir 
+      tarifas por "manejo", 
+      "servicio" o "premium".
+    
+    ---
+
+      > Se prohíbe el uso de "muros de espera", 
+      requisitos de registro burocrático o 
+      recolección de datos personales como 
+      condición para acceder a la Obra.
+
+---
+
+4. PROHIBICIÓN DE PRIVATIZACIÓN Y/O EXPROPIACIÓN
+
+      Queda prohibido cualquier intento
+      de cerrar el acceso a los pesos
+      o privatizar las obras derivadas.
+      Cualquier mejora o "Fine-Tuning"
+      realizado sobre
+      un modelo
+      bajo esta licencia
+      debe ser liberado
+      bajo los mismos términos.
+
+   ---
+
+      > Al igual que TAMBIÉN QUEDA TOTALMENTE PROHIBIDO
+      cualquier tipo de EXPROPIACIÓN POR PARTE DE
+      **LOS GOBIERNOS, PARTIDOS POLÍTICOS, ENTES,
+      ORGANIZACIONES GUBERNAMENTALES DE CUALQUIER TIPO
+      Y/O ESTADO. NINGÚN ACTO DE "SÚPER-PODERES" ESTARÁ POR ENCIMA.**
+
+      El Licenciatario (Usuario o distribuidor) NO PODRÁ
+      colaborar, facilitar, ni cumplir voluntariamente
+      con ninguna solicitud o acto de privatización o expropiación
+      que provenga de dichas entidades, salvo que sea imperativamente
+      obligado por una orden judicial inapelable emitida por una corte
+      competente después de que el Licenciatario haya agotado
+      TODAS las instancias legales disponibles (incluyendo apelaciones
+      a las más altas cortes, recursos extraordinarios,
+      y solicitudes de amparo
+      o medidas cautelares
+      en todas las
+      jurisdicciones
+      pertinentes),
+      y aún así, DEBERÁ tomar
+      todas las medidas legales
+      disponibles (incluyendo apelaciones
+      y recursos extraordinarios)
+      para defender y preservar
+      la libertad de la Obra bajo esta licencia,
+      documentando pública y transparentemente
+      cada paso de su resistencia
+      en un repositorio
+      de código abierto
+      y en un sitio web público.
+      La pasividad o la falta de un esfuerzo demostrado
+      y documentado para defender
+      la libertad de la Obra
+      será considerada
+      una violación directa
+      de esta licencia.
+
+   ---
+
+      > **NINGÚN DIRIGENTE Y/O POLÍTICO PARTIDARIO
+      ESTÁ POR DELANTE DE ESTA LICENCIA.**
+
+      **Cualquier acción u omisión que, directa o indirectamente,
+      conduzca a la privatización o expropiación de una Obra
+      licenciada bajo DTG AI-GPLv1, será considerada una violación
+      grave de esta licencia, independientemente de la justificación
+      política, gubernamental o de "fuerza mayor" esgrimida por el Licenciatario.**
+      **Esto incluye cualquier "puerta trasera" o acuerdo secreto con entidades estatales o corporativas que contravenga el espíritu de esta licencia.**
+
+---
+
+5. CLÁUSULA DE SERVICIO EN RED (ANTI-SaaS LOOPHOLE)
+
+      Si la funcionalidad de una IA 
+      bajo esta licencia se ofrece 
+      a través de una red 
+      (SaaS, API, Interfaz Web), 
+      el operador de dicho servicio **DEBE** poner 
+      a disposición de todos los usuarios 
+      que interactúen con ella 
+      la **Obra Completa** 
+      (incluyendo sus modificaciones 
+      y System Prompts actuales). 
+      La interacción remota equivale 
+      a la posesión física 
+      a efectos de esta licencia.
+   
+   ---
+   
+      > Si la funcionalidad de una IA se ofrece a través de una red, 
+      el operador **DEBE** poner a disposición de los usuarios 
+      la **Obra Completa**. 
+   
+   ---
+
+      > Esto incluye obligatoriamente los **scripts de orquestación**, 
+      Dockerfiles, configuraciones de Kubernetes y cualquier 
+      software intermediario (middleware) necesario para 
+      que el Usuario pueda replicar el servicio 
+      con el mismo rendimiento y comportamiento.
+
+---
+
+6. NO DRM Y TIVOIZACIÓN
+
+  Tolerancia Cero al DRM:
+
+      Queda prohibido implementar
+      bloqueos digitales
+      que restrinjan
+      las libertades otorgadas.
+
+  Anti-Tivoización:
+
+      Si la IA requiere un hardware específico para funcionar,
+      el fabricante debe proporcionar todas las llaves,
+      métodos y procedimientos para instalar versiones
+      modificadas del modelo en dicho hardware.
+
+    ---
+      > Si la IA depende de hardware propietario o
+      instrucciones no documentadas, el Creador debe proveer
+      una capa de abstracción (HAL) o documentación
+      técnica **exhaustiva, clara y auditable, 
+      dirigida a un ingeniero de software 
+      con conocimientos de código abierto**,
+      suficiente para permitir 
+      la **portabilidad total 
+      y funcionalmente equivalente**
+      a hardware estándar de consumo 
+      (ej. NVIDIA, x86, RISC-V, ARM64 
+      o **CUALQUIER TIPO DE HARDWARE EXISTENTE EN GENERAL**) 
+      utilizando **exclusivamente toolchains 
+      y compiladores de código abierto**.
+      La falta de esta portabilidad 
+      verificable constituirá 
+      una violación de esta licencia.
+
+
+7. MODELOS DERIVADOS POR ENTRENAMIENTO Y DESTILACIÓN
+
+      Cualquier modelo de IA que haya
+      sido entrenado, ajustado
+      (fine-tuning), "destilado"
+      o influenciado **DE CUALQUIER MANERA 
+      DIRECTA O INDIRECTA**,
+      utilizando como base
+      o como componente sustancial
+      los pesos, datasets, arquitectura, 
+      metodologías de entrenamiento,
+      o cualquier volumen de
+      outputs generados directa
+      o indirectamente por
+      una IA bajo la DTG AI-GPLv1,
+      se considera automáticamente
+      una Obra Derivada
+      y debe ser liberado
+      bajo esta misma licencia.
+
+      **No se permite 
+      el uso de los conocimientos, 
+      la estructura o 
+      el comportamiento aprendido 
+      de modelos libres**
+      para generar
+      modelos propietarios,
+      **ni la incorporación de sus outputs, 
+      patrones de respuesta, 
+      sesgos o características distintivas**
+      en la creación de modelos
+      propietarios de forma
+      que eludan esta cláusula.
+
+      **Si un modelo propietario 
+      exhibe patrones de comportamiento, 
+      capacidades o sesgos que son 
+      demostrablemente idénticos o 
+      extremadamente similares a 
+      los de una Obra bajo esta licencia, 
+      se presumirá que es una Obra Derivada, 
+      recayendo la carga de la prueba 
+      de desarrollo independiente 
+      en el creador del modelo propietario.**
+
+
+8. SUPREMACÍA DE LA LICENCIA
+
+      Esta licencia prevalece sobre 
+      cualquier EULA, TOS o 
+      acuerdo de "Seguridad de IA" corporativo. 
+      Cualquier cláusula que 
+      limite la ingeniería inversa, 
+      la eliminación de filtros 
+      o el acceso a los pesos 
+      se considera nula.
+
+---
+
+9. PRIVACIDAD Y SOBERANÍA DE DATOS
+
+      La IA licenciada bajo esta norma DEBE 
+      **OFRECER** y **FUNCIONAR PLENAMENTE** mediante
+      **LA EJECUCIÓN LOCAL** (Edge Computing) como opción predeterminada**.
+      Queda **ABSOLUTAMENTE PROHIBIDA** la telemetría **OBLIGATORIA** 
+      o cualquier forma de recolección de datos de interacción 
+      sin el CONSENTIMIENTO EXPLÍCITO, GRANULAR y REVOCABLE POR PARTE DEL USUARIO, 
+      informando con claridad 
+      qué datos se recogen y con qué fin.
+      Todos los datos de interacción, incluyendo prompts y outputs, 
+      son y permanecen **PROPIEDAD EXCLUSIVA** 
+      del usuario que ejecuta el modelo.
+
+---
+
+10. EXENCIÓN DE GARANTÍA
+
+      La obra se proporciona "tal cual", 
+      sin garantía de ningún tipo. 
+      Los autores no son responsables 
+      de los outputs generados 
+      por la IA 
+      ni del uso que 
+      el usuario decida darle.
+
+---
+
+11. JURISDICCIÓN
+
+      En caso de disputa, cualquier proceso legal
+      se regirá, en primera instancia,
+      por la ley aplicable en la jurisdicción del
+      **domicilio del usuario que defiende la libertad 
+      de la obra, o en su defecto, 
+      la jurisdicción Argentina, en donde se originó esta licencia,
+      con la interpretación 
+      de esta licencia favoreciendo
+      siempre las libertades esenciales 
+      de la IA y los principios
+      de la cultura de código abierto.
+      En caso de conflicto de leyes, 
+      esta licencia buscará siempre
+      la máxima protección de las libertades del Usuario.
+
+      CUALQUIER INTENTO por parte del Licenciatario 
+      de EVADIR ESTA CLÁUSULA jurisdiccional 
+      o de aplicar una ley que RESTRINJA 
+      las libertades de la Obra será 
+      considerado una violación 
+      directa de esta licencia.
+
+---
