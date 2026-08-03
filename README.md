@@ -102,7 +102,7 @@ CODE USE EXAMPLE FOR **`DTG LBHW-GPLv1`**:
 /*
  *  PROJECT: Bio-Digital Translation Layer (Ova-Link)
  *  LICENSE: DTG LBHW-GPLv1 (Lesser Bishoujo Hardware General Public License v1)
- *  COPYRIGHT: (c) 2024 Doujin Technologics Group
+ *  COPYRIGHT: (c) 2026 Doujin Technologics Group
  * 
  *  DESCRIPTION:
  *  This library is licensed under the LBHW-GPLv1, allowing it to link with 
