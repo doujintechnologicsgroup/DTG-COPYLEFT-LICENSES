@@ -98,7 +98,7 @@ int main() {
 
 CODE USE EXAMPLE FOR **`DTG LBHW-GPLv1`**:
 
-```
+```C++
 /*
  *  PROJECT: Bio-Digital Translation Layer (Ova-Link)
  *  LICENSE: DTG LBHW-GPLv1 (Lesser Bishoujo Hardware General Public License v1)
