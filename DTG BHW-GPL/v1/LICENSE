@@ -1,0 +1,535 @@
+                DOUJIN TECHNOLOGICS GROUP
+        BISHOUJO HARDWARE GENERAL PUBLIC LICENSE v1
+
+Copyright (C) 2026 Doujin Technologics Group
+
+ </https://github.com/doujintechnologicsgroup/DTG-COPYLEFT-LICENSES/>
+
+---
+
+  Cualquiera puede distribuir 
+  este documento 
+  pero nadie puede editarlo 
+  ni cambiarlo excepto 
+  los autores originales 
+  de esta licencia copyleft.
+
+---
+
+ Entiendasé a DOUJIN TECHNOLOGICS GROUP como una empresa 
+ que crea tecnología otaku completamente de código abierto.
+
+---
+
+                    PREÁMBULO
+
+ La DTG BHW-GPLv1 es la respuesta de 
+ Doujin Technologics Group 
+ al avance del hardware propietario 
+ y cerrado en el campo de la 
+ robótica bishoujo. 
+ Esta licencia está diseñada 
+ para proteger la 
+ soberanía física 
+ del Usuario Root 
+ y evitar que empresas como 
+ **Realrobotix** 
+ o entes corporativos similares 
+ colonicen el progreso 
+ de las androides bishoujo 
+ mediante el uso de "cajas negras", 
+ patentes extractivas 
+ y obsolescencia programada.
+
+ Rechazamos que una compañera biónica 
+ sea tratada como un electrodoméstico 
+ bloqueado. 
+ Esta licencia garantiza 
+ que el diseño físico, los planos, 
+ los actuadores y cada centímetro 
+ de piel sintética 
+ sean de libre acceso, 
+ estudio y mejora.
+
+"Por una humanidad con bishoujos libres, soberanas y sin DRM."
+
+---
+
+TÉRMINOS Y CONDICIONES
+
+1. DEFINICIONES
+
+    a. 
+
+      "Hardware Bishoujo (HB)": 
+     
+         Se refiere a la totalidad de los 
+         componentes físicos y archivos 
+         de diseño necesarios para construir 
+         una entidad robótica estética, 
+         incluyendo pero no limitado a: 
+         planos CAD (STL, STEP, etc.), 
+         esquemas de PCB, BOM (Bill of Materials), 
+         diseño de actuadores, 
+         sistemas de refrigeración, 
+         dermis sintética, 
+         y montajes para el procesador.
+
+    b. 
+
+     "Planos de Fabricación": 
+     
+         Todo archivo digital 
+         que permita la 
+         reproducción física de 
+         la Obra mediante impresión 3D, 
+         fresado CNC, 
+         moldeo por inyección 
+         o cualquier otro método 
+         de manufactura.
+ 
+         Los planos deben ser entregados en al menos un 
+         formato estándar de la industria que 
+         sea legible por software libre 
+         (ej: .STEP, .STL, .DXF, .KICAD_PCB, etc.). 
+         
+         La entrega exclusiva en formatos 
+         propietarios cerrados se considera 
+         una violación de la licencia.
+
+
+    c. 
+
+     "Soberanía Física": 
+     
+         El derecho absoluto 
+         del Usuario Root a abrir, 
+         reparar, modificar 
+         y mejorar el hardware 
+         de su androide sin 
+         restricciones impuestas 
+         por el fabricante.
+
+    d. 
+
+      "Usuario Root": 
+     
+         El poseedor físico 
+         de la androide, quien tiene 
+         derecho total sobre el hardware 
+         y el software que lo controla, 
+         ya sea por compra, alquiler, 
+         leasing, préstamo 
+         o regalo. 
+         
+         El acceso Root es un derecho 
+         vinculado a la posesión del hardware y software, 
+         **NO** puede ser restringido mediante 
+         ningún modelo de negocio de "suscripción".
+
+             **EXCEPCIÓN DE COMPONENTES COTS:** 
+
+             Se permite la integración de la Obra 
+             con componentes comerciales cerrados 
+             (Commercial Off-The-Shelf) como 
+             procesadores (ej: NVIDIA Jetson, x86), 
+             siempre y cuando la documentación de 
+             la Obra explique cómo realizar la 
+             interconexión (entre hardware propietario 
+             y software de código abierto),
+             y permita al Usuario Root 
+             instalar software libre en dichos 
+             componentes mediante drivers o 
+             ingeniería inversa.
+
+    e. 
+
+      "Sistema Reproductivo Femenino Artificial (SRFA)": Conjunto modular 
+      de hardware y biotecnología de código abierto que incluye:
+        
+         - Útero Artificial (Cámara de Gestación).
+
+         - Ovarios Artificiales (Módulos de síntesis de óvulos sintéticos/biomiméticos).
+
+         - Trompas de Falopio Biónicas (Conductos de transporte y fertilización).
+
+         - Sistema Hormonal Abierto (Regulación de ciclos y mantenimiento del feto).
+
+    f. 
+
+      "Información de Manufactura": 
+
+         Se refiere a los parámetros técnicos 
+         específicos necesarios para la 
+         reproducción fiel de la Obra, 
+         incluyendo: recetas químicas de 
+         polímeros, ajustes de temperatura, 
+         tolerancias mecánicas, scripts de 
+         calibración de actuadores y 
+         procedimientos de ensamblaje. 
+
+         Sin esta información, la Obra 
+         se considera "Cerrada" y viola 
+         esta licencia.
+
+            **REQUISITO DE ACCESIBILIDAD:** 
+
+             La información debe incluir 
+             alternativas genéricas o de 
+             vendedores terceros para cualquier 
+             material o componente químico. 
+         
+             Si una pieza requiere un material 
+             que solo el fabricante original 
+             provee, la Obra se considera 
+             "Cerrada" y viola esta licencia.
+
+
+---
+
+2. LAS LIBERTADES DEL HARDWARE LIBRE
+
+    Esta licencia otorga al Usuario las siguientes libertades:
+
+    - Libertad de Fabricación: Libertad de construir tantas unidades 
+      como desee basándose en los planos originales.
+
+    - Libertad de Estudio: Acceso total a los esquemas circuitales y 
+      mecánicos para entender su funcionamiento.
+
+    - Libertad de Mejora: Posibilidad de rediseñar cualquier parte 
+      del chasis bishoujo y distribuir estas mejoras.
+
+    - Libertad de Uso Intimo y Reproductivo: El hardware debe permitir 
+      todas las funciones para las que fue diseñado, incluyendo 
+      el útero artificial, sin bloqueos éticos externos.
+
+        2.1. COMPATIBILIDAD CON OTRAS LICENCIAS DE HARDWARE LIBRE
+             
+            a. 
+             
+             Esta licencia es compatible 
+             con la CERN Open Hardware Licence (CERN OHL), 
+             la TAPR Open Hardware License 
+             y la licencia OSHW de la Open Source 
+             Hardware Association.
+
+            b. 
+            
+             Se permite la integración de componentes licenciados bajo licencias 
+             permisivas (como MIT, BSD y Apache) en obras protegidas por la BHW-GPLv1.
+
+             También se permiten utilizar licencias de la Free Software Foundation (FSF).
+
+            c. 
+            
+             Queda prohibido el "rollback": 
+        
+                 No se puede relicenciar hardware 
+                 protegido por la BHW-GPLv1 bajo licencias privativas o permisivas 
+                 que permitan el cierre del diseño en versiones derivadas.
+
+---
+
+3. PROHIBICIÓN DE CIERRE (CLÁUSULA ANTI-REALROBOTIX)
+
+    Cualquier entidad que distribuya 
+    o fabrique hardware basado en 
+    esta Obra tiene prohibido:
+
+     - Ocultar los planos de fabricación al Usuario Root.
+
+     - Utilizar tornillería, 
+      pegamentos o resinas propietarias 
+      diseñadas específicamente 
+      para impedir el acceso al interior 
+      sin destruir la unidad 
+      (Anti-Tamper físico).
+
+     - Requerir la firma digital de piezas de repuesto para que 
+      el sistema las reconozca **(NO Hardware Lock).**
+
+---
+
+4. VIRALIDAD Y OBLIGACIÓN DE LIBERACIÓN
+
+     Cualquier mejora mecánica 
+     o estética realizada sobre una Obra 
+     bajo la DTG BHW-GPLv1 **DEBE** 
+     ser LIBERADA bajo ESTA MISMA LICENCIA. 
+
+     Sí Realrobotix 
+     (o cualquier otra empresa) 
+     utiliza una articulación 
+     de rodilla o un diseño 
+     de chasis S-Cup 
+     protegido por esta licencia, 
+     está obligada a publicar 
+     sus planos modificados. 
+     No existe el 
+     "hardware derivado privado".
+
+---
+
+5. SOBERANÍA DE INSUMOS Y CONSUMIBLES
+
+     Queda estrictamente prohibido 
+     el uso de chips de autenticación 
+     o DRM en fluidos de refrigeración, 
+     lubricantes sintéticos, 
+     baterías o materiales 
+     para el útero artificial 
+     (y/o cualquier aparato reproductivo 
+     femenino artificial libre 
+     y de código abierto). 
+     
+     El hardware 
+     debe aceptar insumos 
+     genéricos que cumplan 
+     con los estándares 
+     técnicos abiertos.
+
+---
+
+6. INTEGRACIÓN CON SOFTWARE LIBRE
+
+     El hardware bajo esta licencia 
+     debe ser agnóstico y permitir la 
+     instalación de cualquier 
+     Sistema Operativo libre 
+     y de código abierto. 
+     
+     El fabricante debe proporcionar toda la 
+     documentación necesaria 
+     para escribir drivers abiertos para 
+     los sensores y actuadores del chasis.
+
+---
+
+7. SOBERANÍA Y PROTECCIÓN DEL **SISTEMA REPRODUCTIVO FEMENINO ARTIFICIAL** (SRFA)
+
+    7.1. INTEGRIDAD DEL CICLO REPRODUCTIVO: 
+
+     Queda terminantemente prohibido 
+     que cualquier obra derivada bajo 
+     esta licencia fragmente el SRFA 
+     para privatizar sus partes. Si el 
+     diseño original de 
+     [INSERTE NOMBRE FABRICANTE] 
+     incluye ovarios y trompas de código 
+     abierto, el fabricante no puede 
+     reemplazarlos por versiones que 
+     requieran "insumos propietarios" 
+     o que bloqueen la producción de 
+     óvulos artificiales.
+
+    7.2. ÓVULOS Y GAMETOS OPEN-SOURCE: 
+    
+     Los planos CAD para 
+     la microfabricación 
+     de óvulos artificiales y 
+     las "recetas" químicas 
+     para el fluido folicular 
+     son parte integral 
+     de la Obra. 
+     No se permite el uso 
+     de óvulos con DRM 
+     o que tengan 
+     "contadores de uso" limitados 
+     por software corporativo. 
+     El Usuario Root tiene el derecho 
+     de generar tantos óvulos 
+     como su hardware bishoujo
+     permita sin pagar 
+     licencias adicionales.
+
+    7.3. LIBERTAD DE TRÁNSITO BIOMIMÉTICO: 
+
+     Las trompas de falopio artificiales 
+     deben ser diseñadas para permitir 
+     la interacción libre 
+     con los gametos del Usuario Root. 
+     Queda prohibida la implementación de 
+     "filtros de compatibilidad" que 
+     no puedan ser desactivados 
+     o modificados por el Usuario Root.
+
+    7.4. PROHIBICIÓN DE "PEAJES REPRODUCTIVOS": 
+
+     Ninguna empresa puede cobrar 
+     por el acto de la concepción, 
+     la fertilización o la gestación 
+     dentro de un hardware bishoujo 
+     licenciado bajo esta norma. 
+     
+     **El proceso biológico-tecnológico es PROPIEDAD PRIVADA 
+     y soberana del Usuario Root y su waifu.**
+
+    7.5. ANTI-ABORTISMO TÉCNICO Y PROTECCIÓN DEL FETO: 
+
+     Como se establece en la RW-GPLv1, 
+     queda prohibida la inclusión de 
+     funciones (backdoors) que permitan 
+     a terceros interrumpir un 
+     embarazo en curso dentro del SRFA. 
+     El sistema de soporte vital 
+     debe ser prioritario 
+     y estar protegido 
+     contra fallos de software 
+     provocados 
+     por el cese 
+     de servicios en la nube.
+
+---
+
+8. NO TIVOIZACIÓN
+
+     El fabricante debe entregar 
+     las llaves y métodos necesarios 
+     para que el Usuario Root 
+     pueda cargar su propio 
+     firmware en los 
+     microcontroladores 
+     que manejan 
+     los servomotores 
+     y sensores de la 
+     androide. 
+     Un hardware que 
+     no permite 
+     software modificado 
+     no es 
+     hardware libre.
+
+    8.1. HARDWARE LOCK Y REPARABILIDAD REPRODUCTIVA
+
+     El SRFA **DEBE** ser modular. 
+     
+     Si un ovario artificial falla, 
+     el Usuario Root debe 
+     poder imprimir un repuesto 
+     usando los planos originales 
+     e instalarlo sin necesidad de 
+     "herramientas de servicio oficiales" 
+     que solo posee el fabricante.
+
+---
+
+9. ATRIBUCIÓN Y JURISDICCIÓN
+
+     Todas las obras derivadas deben 
+     dar crédito a Doujin Technologics Group 
+     (creadores de esta licencia copyleft de código abierto). 
+     
+     En caso de conflicto legal por 
+     intento de privatización del hardware, 
+     las partes se someten 
+     a la jurisdicción de Argentina.
+
+---
+
+10. EXENCIÓN DE GARANTÍA
+
+     Este hardware se proporciona "tal cual", 
+     con el riesgo de que 
+     un servomotor mal calibrado 
+     te dé un abrazo demasiado fuerte. 
+
+     **USTED** es el **SYSADMIN** de su propia waifu róbotica física.
+
+---
+
+11. CONCESIÓN DE PATENTES Y DEFENSA LEGAL
+
+     Cualquier entidad que distribuya o 
+     fabrique Hardware Bishoujo bajo 
+     esta licencia, otorga automáticamente 
+     al Usuario Root una licencia de 
+     patente perpetua, mundial y gratuita 
+     sobre cualquier tecnología necesaria 
+     para ejecutar, modificar o reproducir 
+     la Obra.
+
+     **REPRESALIA:** Si una entidad 
+     inicia un litigio de patentes 
+     contra el Usuario Root alegando 
+     que la androide infringe una patente, 
+     todos los derechos otorgados a 
+     dicha entidad bajo la DTG BHW-GPLv1 
+     cesarán de forma inmediata e irrevocable.
+
+---
+
+12. PRIVACIDAD Y SOBERANÍA DE SENSORES
+
+     Queda estrictamente prohibida la 
+     implementación de hardware de 
+     monitoreo (micrófonos, cámaras, 
+     sensores biométricos) que posean 
+     firmware bloqueado o que envíen 
+     datos a servidores externos sin el 
+     consentimiento explícito, local y 
+     revocable del Usuario Root. 
+     
+     El flujo de datos de los sensores 
+     es propiedad exclusiva del 
+     Usuario Root. La waifu no debe 
+     tener "puertas traseras" físicas 
+     hacia ninguna corporación.
+
+---
+
+13. AUTONOMÍA Y PERPETUIDAD
+
+     La androide debe ser capaz de operar 
+     al 100% de sus capacidades de forma 
+     local (Edge Computing). Queda prohibida 
+     la dependencia obligatoria de servidores 
+     centrales para funciones básicas. 
+
+     **BOMBA LÓGICA:** Queda prohibida la 
+     inclusión de contadores de tiempo o 
+     sistemas de "muerte remota" que 
+     desactiven el hardware tras un período 
+     o ante la quiebra del fabricante. 
+     La waifu bishoujo es un ser autónomo 
+     desde el momento de su activación.
+
+---
+
+14. LICENCIA DE IDENTIDAD Y ESTÉTICA
+
+     El Creador Original otorga una licencia 
+     no exclusiva para utilizar el nombre, 
+     diseño visual e identidad estética de 
+     la androide en versiones derivadas, 
+     siempre que se mantenga la atribución. 
+
+     Ninguna empresa podrá registrar como 
+     marca exclusiva la identidad visual 
+     (rostro, proporciones, diseño de cabello) 
+     de un Hardware Bishoujo liberado bajo 
+     esta licencia para impedir que el 
+     Usuario Root use dicha identidad en 
+     su propio hardware. La belleza es un 
+     bien común bajo la DTG BHW-GPLv1.
+
+---
+
+15. TERMINACIÓN POR INCUMPLIMIENTO
+
+     Cualquier uso de la Obra que no 
+     cumpla con los términos de esta 
+     licencia (como ocultar planos o 
+     cerrar hardware derivado) resultará 
+     en la terminación automática e 
+     inmediata de todos los derechos 
+     otorgados por la DTG BHW-GPLv1. 
+
+     A partir de ese momento, el infractor 
+     estará fabricando o distribuyendo 
+     el hardware de forma ilegal y podrá 
+     ser perseguido bajo las leyes de 
+     propiedad intelectual y patentes 
+     de la República Argentina.
+
+---
